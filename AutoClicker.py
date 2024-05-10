@@ -120,7 +120,6 @@ class AutoClickerApp:
     def toggle_record(self, target):
         self.record_button_active = not self.record_button_active
         self.record_button_target = target
-        
 
     def set_recorded_keybind(self, key):
         if self.record_button_target == "toggle":
