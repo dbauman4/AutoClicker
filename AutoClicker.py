@@ -4,6 +4,7 @@ from pynput.keyboard import Key, Listener as KeyboardListener, KeyCode
 import threading
 import time
 
+
 class AutoClickerApp:
     def __init__(self, master):
         self.master = master
