@@ -101,6 +101,7 @@ class AutoClickerApp:
             self.decrease_speed()
         
 
+
     def on_key_release(self, key):
         pass
 
