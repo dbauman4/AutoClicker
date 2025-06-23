@@ -88,6 +88,7 @@ class AutoClickerApp:
             time.sleep(1 / self.click_speed)
         print("Auto Clicker Off!")
 
+
     def on_key_press(self, key):
         #print("Keypressed: "+ str(key))
         if self.record_button_active:
