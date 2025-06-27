@@ -101,6 +101,7 @@ class AutoClickerApp:
             self.increase_speed()
         elif self.keybind_decrease is not None and str(key) == self.keybind_decrease:
             self.decrease_speed()
+       
         
 
 
