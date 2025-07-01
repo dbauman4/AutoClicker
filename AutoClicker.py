@@ -12,8 +12,8 @@ class AutoClickerApp:
         self.click_speed = 25  # Default click speed (clicks per second)
         self.clicking = False
         self.keybind_toggle = str(Key.insert)
-        self.keybind_increase = str(Key.up)
-        self.keybind_decrease = str(Key.down)
+        self.keybind_increase = str(Key.page_up)
+        self.keybind_decrease = str(Key.page_down)
         self.record_button_active = False
         self.record_button_target = None
 
