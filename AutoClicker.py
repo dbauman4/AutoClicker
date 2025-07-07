@@ -21,6 +21,7 @@ class AutoClickerApp:
         self.setup_listeners()
 
 
+
     def create_widgets(self):
         # Click speed entry
         self.click_speed_label = tk.Label(self.master, text="Click Speed (CPS):")
