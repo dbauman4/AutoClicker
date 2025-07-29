@@ -100,9 +100,7 @@ class AutoClickerApp:
         elif self.keybind_increase is not None and str(key) == self.keybind_increase:
             self.increase_speed()
         elif self.keybind_decrease is not None and str(key) == self.keybind_decrease:
-            self.decrease_speed()
-       
-        
+            self.decrease_speed()       
 
 
     def on_key_release(self, key):
