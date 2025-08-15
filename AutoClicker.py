@@ -145,6 +145,7 @@ class AutoClickerApp:
             self.decrease_keybind_entry.insert(0, self.format_key(key))
             self.decrease_keybind_entry.config(state='readonly')
 
+
     def format_key(self, key):
         if isinstance(key, KeyCode):
             return key.char
